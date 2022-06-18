@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #130f0d;
+}
+
+/*# sourceMappingURL=index.css.map */

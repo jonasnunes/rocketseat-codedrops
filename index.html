@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RocketSeat Code Drops">
-    <title>Code Drops</title>
+    <meta name="description" content="Form validation with HTML API">
+    <title>RocketSeat Code Drops</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
@@ -17,5 +17,26 @@
 </head>
 <body>
     
+    <form action="">
+
+        <h2>Entrar na lista</h2>
+
+        <div class="input">
+            <input type="text" required>
+            <label>Nome</label>
+            <span class="error"></span>
+        </div>
+
+        <div class="input">
+            <input type="email" required>
+            <label>E-mail</label>
+            <span class="error"></span>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>

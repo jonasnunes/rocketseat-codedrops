@@ -21,18 +21,18 @@ form {
   background: rgba(255, 255, 255, 0.03);
   width: 100%;
   max-width: 500px;
-  margin: 32px auto;
-  padding: 32px 64px;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
 }
 
 form h2 {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 div.input {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -44,7 +44,7 @@ button {
   appearance: none;
   /* box */
   width: 100%;
-  padding: 16px 0;
+  padding: 1rem 0;
   border: none;
   border-bottom: 1px solid #fd951f;
   background-color: transparent;
@@ -52,17 +52,17 @@ button {
   /* text */
   color: #f0f0f5;
   font-size: 1em;
-  cursor: pointer;
 }
 
 button {
-  margin-top: 16px;
+  margin-top: 1rem;
   background-color: #fd951f;
+  cursor: pointer;
 }
 
 input ~ label {
   position: absolute;
-  top: 16px;
+  top: 1rem;
   left: 0;
   color: rgba(255, 255, 255, 0.6);
   transition: 0.4s;
